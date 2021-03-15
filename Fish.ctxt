@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Fish
+comment0.text=\n\ A\ Fish\ moves\ left\ to\ right\ and\ the\ right\ to\ left,\ and\ the\ left\ to\ right\ ...\n\ \ \ ...\ until\ it\ touched\ the\ hook\ end\ of\ a\ FishingLine.\ at\ that\ point,\ it\ just\ \n\ \ \ moves\ with\ the\ line.\ \n\n\ @author\ Michael\ Nunes\ \n\ @version\ 30/10/2018\n
+comment1.params=startSpeed
+comment1.target=Fish(int)
+comment1.text=\n\ constructor\ to\ build\ a\ "default"\ scoreboard\n\ \n\ @param\ startSpeed\ the\ amount\ of\ speed\ to\ start\ the\ fish\ move.\n
+comment2.params=
+comment2.target=int\ getSpeed()
+comment2.text=\n\ give\ back\ the\ current\ speed.\n\ @return\ return\ the\ current\ speed\ of\ the\ fish.\ \n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\n\ When\ the\ fish\ is\ already\ in\ the\ world,\ get\ his\ Y\ location\ and\ divided\ by\ 100\ and\ then\ multiply\ by\ 100.\n\ @param\ W\ is\ the\ world\ which\ this\ object\ is\ added\ it.\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\n\ Act\ -\ do\ whatever\ the\ fish\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\ turns\ fish\ to\ 180\ or\ 90\ degrees\ \n\ move\ the\ fish\ with\ the\ normal\ speed.\n\ adds\ fish\ to\ the\ world\ \n\ remove\ fish\ from\ the\ world\n\ make\ the\ fishing\ line\ to\ come\ back\ to\ the\ fisher.\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Fisher
+comment0.text=\n\ A\ Fisher\ can\ move\ left\ or\ right\ and\ has\ a\ FishingLine\ associated\n\ with\ it.\ \n\ \n\ @author\ Michael\ Nunes\ \n\ @version\ 30/10/2018\n
+comment1.params=
+comment1.target=Fisher()
+comment1.text=\n\ constructs\ a\ fisher\ of\ default.\n\ the\ Fisher\ has\ a\ Fishing\ line\ to\ cast.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Fisher\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\ adds\ a\ fishing\ line\ to\ the\ fisher.\n\ move\ the\ fisher\ to\ the\ right\ by\ one\ pixel\n\ moves\ the\ fisher\ to\ the\ left\ by\ one\ pixel\n\ cast\ the\ line\n
+numComments=3

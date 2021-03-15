@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\n\ MyWorld\ describes\ a\ basic\ world\ for\ the\ fishing\ game.\n\ \n\ @author\ Stepehen\ Blythe\ and\ Michael\ Nunes\n\ @version\ 8/2018\ --30/10/2018\ \n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ adds\ a\ fisher\ to\ the\ world\n\ adds\ a\ scoreboard\ to\ the\ world.\n\ adds\ fishes\ to\ the\ world.\n
+comment2.params=
+comment2.target=ScoreBoard\ getScoreboard()
+comment2.text=\n\ \ the\ scoreboard\ that\ it\ is\ in\ the\ world\n\ @return\ the\ scoreboard\ that\ it\ is\ in\ the\ world\n
+comment3.params=
+comment3.target=void\ removeGamePieces()
+comment3.text=\n\ removes\ all\ Fish,\ Fishingline,\ and\ Person\ objects\ from\n\ \ \ this\ world.\ Likey\ useful\ to\ call\ when\ the\ current\ \n\ \ \ game\ ends.\ \n
+comment4.params=caughtFish
+comment4.target=void\ addFish(Fish)
+comment4.text=\n\ \n\ @param\ caughtFish\ the\ fish\ to\ add\ to\ the\ world\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\n\ handle\ key\ presses,\ etc\ ...\n\ Act\ -\ do\ whatever\ the\ world\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\ remove\ all\ the\ game\ pieces\ is\ the\ time\ is\ less\ or\ equal\ to\ 0\n\ set\ the\ current\ score\ to\ the\ high\ score\ \n\ and\ if\ the\ user\ press\ N\ start\ a\ new\ game\n
+numComments=6
